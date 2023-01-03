@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/VertexBumpiness.unity
-    guid: 0bee799e205067546a5671c875b84c07
+    path: Assets/Scenes/LavaFlow.unity
+    guid: 709ad4cb4fcc40942be09b46905e2e09
   m_configObjects: {}

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PointBasedMagneticFluid
-  m_Shader: {fileID: -6465566751694194690, guid: df73a8d7147619f479964dcfd4e91a19, type: 3}
+  m_Name: ForceField
+  m_Shader: {fileID: -6465566751694194690, guid: 5a01f2212657f7449a1248a960d77a15, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -19,28 +19,17 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _Reflection:
-        m_Texture: {fileID: 8900000, guid: cd7d58d5520a6874587342352e94b970, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Density: 16.86
-    - _Distance: 0
-    - _DistanceAmplifier: 1
-    - _FieldRadius: 1.19
-    - _LengthAmplifier: 1
-    - _MaxSpikeDistane: 0
-    - _Speed: 1
-    - _Strength: 1
+    - _FresnelPower: 5.54
+    - _Intersection: 0.2
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
-    - _MagnetPosition: {r: 1.0123397, g: 0.5079711, b: -7.6281433, a: 0}
+    - _Color: {r: 1, g: 0, b: 0.8016806, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &4894416894282091583
+--- !u!114 &6075913935491659138
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
