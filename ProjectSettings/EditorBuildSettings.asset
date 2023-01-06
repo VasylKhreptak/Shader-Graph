@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Dissolve.unity
-    guid: f75ab4d4b9e7303449caf02a3ba11f18
+    path: Assets/Scenes/Hollogram.unity
+    guid: 065ca68f5ecc865428db7849b19fa62a
   m_configObjects: {}
