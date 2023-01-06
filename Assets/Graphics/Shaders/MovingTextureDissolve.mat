@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VoronoiDissolve
-  m_Shader: {fileID: -6465566751694194690, guid: a8a19184e4fe4ee4db7cab4e0571ef6b, type: 3}
+  m_Name: MovingTextureDissolve
+  m_Shader: {fileID: -6465566751694194690, guid: 0f46487af091eda4e838a0122528f90c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -26,6 +26,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Albedo:
         m_Texture: {fileID: 2800000, guid: 33dc52a60d3fe9544b76f01c646c63d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTexture:
+        m_Texture: {fileID: 2800000, guid: 4d91557cccf6f514b85769647bb9c1c9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicMap:
@@ -56,19 +60,20 @@ Material:
     m_Floats:
     - _AoStrength: 1
     - _Dissolve: 0
-    - _EdgeLength: 0.08
+    - _EdgeLength: 0.01
     - _Metallic: 0
-    - _NoiseDensity: 14.86
-    - _NoiseSpeed: 10.89
     - _NormalStrength: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
+    - _Speed: 0.1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EdgeColor: {r: 21.361254, g: 1.4605148, b: 0, a: 1}
+    - _Direction: {r: 0, g: 1, b: 0, a: 0}
+    - _EdgeColor: {r: 0, g: 21.361254, b: 19.178383, a: 0}
+    - _TextureScale: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &4635567623290215508
+--- !u!114 &4303085651198081987
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
