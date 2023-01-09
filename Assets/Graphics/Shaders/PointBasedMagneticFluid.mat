@@ -24,6 +24,18 @@ Material:
         m_Texture: {fileID: 8900000, guid: cd7d58d5520a6874587342352e94b970, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
@@ -34,12 +46,27 @@ Material:
     - _FieldRadius: 1.19
     - _LengthAmplifier: 1
     - _MaxSpikeDistane: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _Speed: 1
     - _Strength: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
-    - _MagnetPosition: {r: 1.0123397, g: 0.5079711, b: -7.6281433, a: 0}
+    - _MagnetPosition: {r: 0.5018301, g: 0.38687953, b: -8.765224, a: 0}
   m_BuildTextureStacks: []
+--- !u!114 &1392290472884757728
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
 --- !u!114 &4894416894282091583
 MonoBehaviour:
   m_ObjectHideFlags: 11

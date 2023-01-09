@@ -6,6 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/WaterLevel.unity
+    guid: 98de702fb047afd4eada131fdf016ebf
+  - enabled: 1
+    path: Assets/Scenes/BaseTerrainTextureing.unity
+    guid: 5f6921039d455ae48949119f619f80ce
+  - enabled: 1
+    path: Assets/Scenes/Curtains.unity
+    guid: 20c28e6c4b408a440b7e9d2a00a35e98
+  - enabled: 1
+    path: Assets/Scenes/VoronoiTest.unity
+    guid: 1c0c43b4b517ffc448310faa2022c1a4
+  - enabled: 1
+    path: Assets/Scenes/UIViewSpace.unity
+    guid: 3bb42148452ca514298f9405e99fac4f
+  - enabled: 1
+    path: Assets/Scenes/LavaFlow.unity
+    guid: 709ad4cb4fcc40942be09b46905e2e09
+  - enabled: 1
+    path: Assets/Scenes/Iridscence.unity
+    guid: f6d72efa6c53006419142f17b130d151
+  - enabled: 1
+    path: Assets/Scenes/MagneticFluid.unity
+    guid: b281c4a3633e7eb43ac210a6bad9e590
+  - enabled: 1
+    path: Assets/Scenes/PointBasedMagnetFluid.unity
+    guid: 7a662e9926831184c99c6ac77a3907f9
+  - enabled: 1
+    path: Assets/Scenes/VertexBumpiness.unity
+    guid: 0bee799e205067546a5671c875b84c07
+  - enabled: 1
+    path: Assets/Scenes/GlassAndIce.unity
+    guid: cdffe0f5126912d4f837367c89612a27
+  - enabled: 1
+    path: Assets/Scenes/ForceField.unity
+    guid: f891599d4bbdf6949a6f2b4dca1e4ee4
+  - enabled: 1
     path: Assets/Scenes/Hollogram.unity
     guid: 065ca68f5ecc865428db7849b19fa62a
+  - enabled: 1
+    path: Assets/Scenes/Dissolve.unity
+    guid: f75ab4d4b9e7303449caf02a3ba11f18
+  - enabled: 1
+    path: Assets/Scenes/Water.unity
+    guid: d4480dbb20167ba4e87117b345ac5b8a
   m_configObjects: {}
